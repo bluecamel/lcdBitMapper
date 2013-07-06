@@ -1,0 +1,33 @@
+.bitMapper {
+	margin: 50px auto;
+}
+
+.bitMapperRow {
+	clear: left;
+}
+
+.bitMapperRowCellContainer {
+	float: left;
+}
+
+.bitMapperRowDefinition {
+	float: left;
+	font-size: 14px;
+	line-height: 19px;
+	margin-left: 10px;
+	width: 150px;
+}
+
+.bitMapperCell {
+	border: 1px solid #ccc;
+	display: inline-block;
+	float: left;
+	height: 14px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	width: 14px;
+}
+
+.bitMapperCell.on {
+	background-color: #000;
+}
