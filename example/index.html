@@ -7,7 +7,10 @@
 	<script>
 		(function($) {
 			$(document).ready(function() {
-				$("#bitMapper").bitMapper();
+				$("#bitMapper").bitMapper({
+					columns: 5,
+					rows: 8
+				});
 			});
 		})(jQuery);
 	</script>
